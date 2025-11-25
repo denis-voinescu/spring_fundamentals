@@ -1,4 +1,4 @@
-package week2.chapter11;
+package week2.chapter11.rest_template;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

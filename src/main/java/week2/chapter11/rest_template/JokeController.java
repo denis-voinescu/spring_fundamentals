@@ -1,15 +1,15 @@
-package week2.chapter11;
+package week2.chapter11.rest_template;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-public class MyController {
+public class JokeController {
 
     private RestTemplate restTemplate;
 
-    public MyController(RestTemplate restTemplate) {
+    public JokeController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 
