@@ -1,4 +1,4 @@
-package week3.datasource_bean_example.config;
+package week3.chapter12.datasource_bean_example.config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Value;
